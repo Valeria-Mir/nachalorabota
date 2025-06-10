@@ -1,0 +1,119 @@
+// ==== 1. Utils ====
+@use 'utils/variables';
+
+// ==== 2. Base styles ====
+@use 'base/reset';
+@use 'base/typography';
+@use 'base/layout';
+
+// ==== 3. Layout ====
+@use 'layout/container';
+
+// ==== 4. Components ====
+@use 'components/button';
+@use 'components/card';
+
+.logochelo{display:flex;
+  margin-left:54px;
+  width: 50px;
+  height: 32px;
+  margin-top: 33px;
+}
+.display{
+  display: flex;
+  margin-left: 505px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  justify-content: space-between;
+  width: 31%;
+  margin-top: -14px;
+
+}
+.Furniro{
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin-top: 1px;
+  margin-left: 5px;
+
+}
+.navg{
+  margin-left: 1095px;
+  gap: 45px;
+  margin-top: -24px;
+  display: flex;
+  justify-content: space-between; /* Равномерное распределение */
+  width: 6%; /* Или явная ширина, например, 300px */
+}
+.ocnova {
+  position: relative; /* Родительский контейнер с относительным позиционированием */
+  background: url("../images/ocnova1.webp") no-repeat;
+  width: 1440px;
+  height: 716.83px;
+  margin-top: 47px;
+  margin-left: -11px;
+}
+
+.Collection {
+  position: absolute; /* Абсолютное позиционирование внутри .ocnova */
+  width: 643px;
+  height: 443px;
+  margin-top: 151px; /* Отступ сверху относительно .ocnova */
+  margin-left: 739px; /* Отступ слева относительно .ocnova */
+  background: #FFF3E3;
+}
+.New{
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 3px;
+  color: #333333;
+}
+.zg1bloc{
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 65px;
+  letter-spacing: 0px;
+  color: #B88E2F;
+}
+.Lorem{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #333333;
+  margin-top: 17px;
+}
+.BUY{
+  width: 222px;
+  height: 74px;
+  top: 585px;
+  left: 778px;
+  padding-top: 25px;
+  padding-right: 72px;
+  padding-bottom: 25px;
+  padding-left: 72px;
+  gap: 10px;
+  background: #B88E2F;
+  color: white;
+  border: none;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  margin-top: 46px;
+}
+.textcollection{
+  margin-left: 41px;
+  margin-top: 62px;
+}
