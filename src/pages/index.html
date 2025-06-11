@@ -23,14 +23,40 @@
     </div>
 
 </div>
-<h3>Browse The Range</h3>
+<h3 class="Browse">Browse The Range</h3>
+<div class="Lorembloc2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
 <div class="categories">
-<!--@@include('components/cart1.html', {-->
-<!--  "img": "./assets/images/Dining.webp",-->
-<!--  "alt": "Dining",-->
-<!--  "title": "Dining"-->
-<!-- })-->
+    @@include('../components/cart1.html', {
+    "img": "./assets/images/Dining",
+    "alt": "Изображение 1",
+    "title": "Dining"
+    })
+    @@include('../components/cart1.html', {
+    "img": "./assets/images/living",
+    "alt": "Изображение 1",
+    "title": "Living"
+    })
+    @@include('../components/cart1.html', {
+    "img": "./assets/images/bedroom",
+    "alt": "Изображение 1",
+    "title": "Bedroom"
+    })
 </div>
+<div class="bloc3">
+    <div class="zgbloc3"> Our Products </div>
+    <div class="products">
+        @@include('../components/cartProducts.html', {
+        "img": "./assets/images/bloc4kart1.webp",
+        "img-webp": "./assets/images/bloc4kart1.webp",
+        "alt": "Stylish cafe chair Syltherine",
+        "title": "Syltherine",
+        "text": "Stylish cafe chair",
+        "cardPrice": "2.500.000",
+        "cardSale": "3.500.000"
+        })
+    </div>
+</div>
+<!--@@include('../components/footer.html')-->
 
 
 </body>
