@@ -10,7 +10,7 @@
 </head>
 <body>
 
-@@include('../components/_card.html')
+@@include('../components/heder.html')
 <div class="ocnova">
     <div class="Collection">
         <div class="textcollection">
@@ -54,9 +54,103 @@
         "cardPrice": "2.500.000",
         "cardSale": "3.500.000"
         })
+        @@include('../components/cartProducts.html', {
+        "img": "./assets/images/strancart.webp",
+        "img-webp": "./assets/images/strancart.webp",
+        "alt": "Stylish cafe chair Syltherine",
+        "title": "Leviosa",
+        "text": "Stylish cafe chair",
+        "cardPrice": "2.500.000",
+        "modifier": "--disabled"
+        })
+        @@include('../components/cartProducts.html', {
+        "img": "./assets/images/divann.webp",
+        "img-webp": "./assets/images/divann.webp",
+        "alt": "Stylish cafe chair Syltherine",
+        "title": "Lolito",
+        "text": "Luxury big sofa",
+        "cardPrice": "7.000.000",
+        "cardSale": "14.000.000"
+        })
+        @@include('../components/cartProducts.html', {
+        "img": "./assets/images/new1.webp",
+        "img-webp": "./assets/images/new1.webp",
+        "alt": "Stylish cafe chair Syltherine",
+        "title": "Respira",
+        "text": "Outdoor bar table and stool",
+        })
     </div>
+        <div class="products">
+        @@include('../components/cartProducts.html', {
+        "img": "./assets/images/bloc45kar.webp",
+        "img-webp": "./assets/images/bloc45kar.webp",
+        "alt": "Stylish cafe chair Syltherine",
+        "title": "Grifo",
+        "text": "Night lamp",
+        })
+        @@include('../components/cartProducts.html', {
+        "img": "./assets/images/new2.webp",
+        "img-webp": "./assets/images/new2.webp",
+        "alt": "Stylish cafe chair Syltherine",
+        "title": "Muggo",
+        "text": "Small mug",
+        "cardPrice": "150.000"
+        })
+        @@include('../components/cartProducts.html', {
+        "img": "./assets/images/pingky.webp",
+        "img-webp": "./assets/images/pingky.webp",
+        "alt": "Stylish cafe chair Syltherine",
+        "title": "Pingky",
+        "text": "Cute bed set",
+        "cardPrice": "7.000.000",
+        "cardSale": "14.000.000"
+        })
+        @@include('../components/cartProducts.html', {
+        "img": "./assets/images/potty.webp",
+        "img-webp": "./assets/images/potty.webp",
+        "alt": "Stylish cafe chair Syltherine",
+        "title": "Potty",
+        "text": "Minimalist flower pot",
+        "cardPrice": "500.000",
+        })
+    </div>
+    <button class="knp2">Show More</button>
 </div>
-<!--@@include('../components/footer.html')-->
+<div class="bloc4">
+    <div class="textbloc4">
+        <div class="zgbloc4">50+ Beautiful rooms <br>inspiration</div>
+        <div class="pzg4">Our designer already made a lot of beautiful <br> prototipe of rooms that inspire you</div>
+        <button class="Explorebloc4"> Explore More</button>
+    </div>
+    <div class="imgbloc4">
+        <img class="imgbloc41"  src="./assets/images/bloc41.webp">
+        <div class="podimg90">
+            <div class="pzgpodim">01 —— Bed Room </div>
+            <div class="zgpodim">Inner Peace</div>
+        </div>
+        <div class="strelka">
+            <button class="knstrelka"><img src="./assets/images/strelka.webp"></button>
+        </div>
+        <img class="imgbloc42" src="./assets/images/bloc42.webp">
+        <img class="imgbloc42" src="./assets/images/bloc43.webp">
+    </div>
+    <div class="krygi">
+        <div class="circle" ></div>
+        <div class="ovalglav">
+            <div id="oval"></div>
+            <div id="oval"></div>
+            <div id="oval"></div>
+        </div>
+        <button class="knkryg"> > </button>
+    </div>
+    <div class="bloc5">
+        <span class="pzg5">Share your setup with</span>
+        <div class="zg5">#FuniroFurniture</div>
+        <img src="./assets/images/bolchaikart.webp">
+    </div>
+
+</div>
+@@include('../components/footer.html')
 
 
 </body>

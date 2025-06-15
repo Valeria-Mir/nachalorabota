@@ -1,16 +1,27 @@
-<div class="cartproduct">
-    <picture>
-        <source srcset="@@img-webp" type="image/webp">
-        <img src="@@img" alt="@@alt" class="card__image">
-    </picture>
-
-    <div class="card__body">
-        <h3 class="card__title">@@title</h3>
-        <p class="card__text">@@text</p>
-        <div class="card__prices">
-            <span class="card__price">Rp @@cardPrice</span>
+<div class="cart-product">
+  <div class="card__image">
+    <img src="@@img" alt="@@alt">
+    <div class="card__image-overlay">
+        <button class="animkn">Add to cart</button>
+        <div class="imgdisplayanim">
+            <img  class="shareanim"  src="./assets/images/share.webp">
+            <div class="sharesnimtext">Share</div>
+            <img  class="shareanim"  src="./assets/images/Compare.webp">
+            <div class="sharesnimtext">Compare</div>
+            <img  class="shareanim"  src="./assets/images/nrav.webp">
+            <div class="sharesnimtext">Like</div>
+        </div>
+    </div>
+  </div>
+  <div class="card__content">
+    <h3 class="card__title">@@title</h3>
+    <p class="card__text">@@text</p>
+ <div class="card__prices">
+            @@if (context.cardPrice) {
+                <span class="card__price">Rp @@cardPrice</span>
+            }
             @@if (context.cardSale) {
-            <span class="card__sale">Rp @@cardSale</span>
+                <span class="card__sale">Rp @@cardSale</span>
             }
         </div>
     </div>

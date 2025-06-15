@@ -1,0 +1,190 @@
+.logochelo{display:flex;
+  margin-left:54px;
+  width: 50px;
+  height: 32px;
+  margin-top: 33px;
+}
+.display{
+  display: flex;
+  margin-left: 505px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  justify-content: space-between;
+  width: 31%;
+  margin-top: -14px;
+
+}
+.Furniro{
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin-top: 1px;
+  margin-left: 5px;
+
+}
+.navg{
+  margin-left: 1095px;
+  gap: 45px;
+  margin-top: -24px;
+  display: flex;
+  justify-content: space-between; /* Равномерное распределение */
+  width: 6%; /* Или явная ширина, например, 300px */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Пробуемммм */
+
+.cart-toggle {
+    display: none;
+}
+
+.cart-modal {
+    position: fixed;
+    top: 0;
+    right: -600px;
+    width: 417px;
+    height: 746px; /* Фиксированная высота (не на всю страницу) */
+    background: white;
+    z-index: 1000;
+    transition: right 0.3s ease;
+}
+
+/* Затемнение основной страницы */
+.cart-toggle:checked ~ .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 999; /* Под корзиной (z-index: 1000) */
+}
+
+.cart-toggle:checked ~ .cart-modal {
+    right: 0; /* Корзина выезжает */
+}
+.nachalokorzina{
+    display: flex;
+    gap: 152px;
+    margin-left: 30px;
+    margin-top: 28px;
+}
+.korzinazak{
+  width: 16.625px;
+  height: 19px;
+  margin-top: 22px;
+}
+.ShoppingCart{
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.linekorzina{
+  border: 1px solid #D9D9D9;
+  width: 287px;
+  margin-left: 30px;
+
+}
+.imgkart1korzina {
+  margin-top: 42px;
+  margin-left: 27px;
+}
+.textkart1korzina{
+  margin-left: 167px;
+  margin-top: -92px;
+}
+.Asgaardsofakorzin{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.dkart12{
+  display: flex;
+  gap: 15px;
+  margin-top: 11px;
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.Rs250{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #B88E2F;
+}
+.krestkorzina{
+  margin-left: 199px;
+  margin-top: -33px;
+}
+.cart-icon{
+  margin-left: 1314px;
+  margin-top: -29px;
+}
+.Subtotalkorzina{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+}
+.footerkorzina{
+  display: flex;
+  gap: 101px;
+  margin-left: 31px;
+  margin-top: 275px;
+}
+.chenakorzina{
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #B88E2F;
+}
+.linefooterkorzina{
+  border: 1px solid #D9D9D9;
+  margin-top: 23px;
+}
+.knopkifooterkorzina{
+  display: flex;
+  gap: 14px;
+  margin-left: 27px;
+  margin-top: 26px;
+}
+.obchiabitn{
+  height: 30px;
+  border-width: 1px;
+  gap: 10px;
+  border-radius: 50px;
+  padding-top: 6px;
+  padding-right: 30px;
+  padding-bottom: 6px;
+  padding-left: 30px;
+  border: 1px solid #000000;
+  background: white;
+
+}

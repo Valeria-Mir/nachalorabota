@@ -1,0 +1,48 @@
+.knopki{
+ display: flex;
+ gap: 35px;
+ margin-left: 521px;
+ margin-top: 70px;
+}
+.knopkiposledov{
+ width: 60px;
+ height: 60px;
+ border-radius: 10px;
+background: #B88E2F;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: white;
+}
+.chictik{
+  width: 123px;
+  height: 64px;
+  top: 676px;
+  left: 735px;
+  border-radius: 10px;
+  border: 1px solid #9F9F9F;
+  background: white;
+  letter-spacing: 5px; /* Регулируйте значение */
+  padding: 0 10px;     /* Добавляет отступы внутри кнопки */
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 10px;
+
+}
+.dobavka{
+ width: 215px;
+ height: 64px;
+ border-radius: 15px;
+ border-width: 1px;
+ border: 1px solid #000000;
+  background: white;
+ font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+
+}

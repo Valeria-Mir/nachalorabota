@@ -1,0 +1,53 @@
+.dostichenia-container {
+  display: flex;
+  gap: 55px;
+  background: #faf3ea;
+  max-width: 1440px;
+  height: 270px;
+  padding: 0 53px;
+  align-items: center;
+  margin-top: 85px;
+}
+
+.dostichenia-item {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Отступ между иконкой и текстом */
+}
+
+.dostichenia__image {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.dostichenia__body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.dostichenia__title {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #242424;
+  margin-top: 28px;
+
+
+}
+
+.dostichenia__text {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #898989;
+  margin-top: -32px;
+
+
+}
