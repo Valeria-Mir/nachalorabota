@@ -1,0 +1,142 @@
+.cart-product {
+  width: 285px;
+  height: 446px;
+  background: #F4F5F7;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Стили для изображения */
+.card__image {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.card__image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: filter 0.3s ease;
+}
+
+.cart-product:hover {
+  filter: brightness(0.8);
+}
+
+
+.cart-product:hover .card__image-overlay * {
+  filter: brightness(1); /* Возвращаем нормальную яркость */
+}
+
+/* Альтернативный вариант с overlay */
+.card__image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cart-product:hover .card__image-overlay {
+  opacity: 1;
+}
+
+/* Остальные ваши стили остаются без изменений */
+.card__title {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  color: #3A3A3A;
+  padding-left: 16px;
+  padding-top: 11px;
+}
+
+.card__text{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #898989;
+  padding-left: 16px;
+  margin-top: -19px;
+}
+.card__body{
+  margin-top: -21px;
+}
+.card__prices{
+  display: flex;
+  gap: 16px;
+  padding-left: 16px;
+  margin-top: -10px;
+}
+.card__sale{
+  color: #B0B0B0;
+  text-decoration: line-through;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-decoration: line-through;
+
+}
+.card__price{
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #3A3A3A;
+}
+.products{
+  display: flex;
+  gap: 32px;
+  margin-left: 102px;
+  margin-top: 32px;
+}
+.cart-products--disabled {
+    background: #3A3A3A;
+
+}
+
+.cart-products--disabled::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+}
+.shareanim{
+  width: 16px;
+  height: 16px;
+}
+.imgdisplayanim{
+  display: flex;
+  width: 16px;
+  height: 16px;
+  margin-left: 16px;
+  margin-top: 24px;
+  gap: 20px;
+}
+.sharesnimtext{
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-left: -10px;
+  margin-top: -6px;
+
+}
+
+
