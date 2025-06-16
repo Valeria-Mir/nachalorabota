@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Document</title>
+</head>
+<body>
+@@include('../components/heder.html')
+@@include('../components/nachalo2.html', {
+"title": "Checkout",
+"text": "<a href='./stranicka3.html'>Checkout</a>",
+"img": "./assets/images/logo.webp"
+})
+<div class="zgfrom">Billing details</div>
+   <div class="form-container">
+        <form>
+            <div class="form-group">
+                <label for="firstName" class="required"><b>First Name</b>  </label>
+                <input type="text" id="firstName" name="firstName" >
+            </div>
+        </form>
+       <form>
+           <div class="form-group">
+                <label for="lastName" class="required22"><b> Last Name</b>  </label>
+                <input type="text" id="lastName" name="lastName" >
+            </div>
+       </form>
+    </div>
+       <form>
+           <div class="form-group">
+                <label for="lastName" class="required223"><b> Company Name (Optional)</b>  </label>
+                <input type="text" id="CompanyNameOptional" name="CompanyNameOptional" >
+            </div>
+       </form>
+<div class="form-group">
+  <div class="required223"><b> Country / Region </b>  </div>
+  <select class="stranicka6select">
+    <option>Sri Lanka</option>
+    <option>Product 1</option>
+    <option>Product 2</option>
+    <option>Product 3</option>
+    <option>Product 4</option>
+  </select>
+</div>
+       <form>
+           <div class="form-group">
+                <label for="lastName" class="required223"><b> Street address</b>  </label>
+                <input type="text" id="CompanyNameOptional" name="CompanyNameOptional" >
+            </div>
+       </form>
+       <form>
+           <div class="form-group">
+                <label for="lastName" class="required223"><b> Town / City</b>  </label>
+                <input type="text" id="CompanyNameOptional" name="CompanyNameOptional" >
+            </div>
+       </form>
+<div class="form-group">
+  <div class="required223"><b> Province </b>  </div>
+  <select class="stranicka6select">
+    <option>Western Province</option>
+    <option>Product 1</option>
+    <option>Product 2</option>
+    <option>Product 3</option>
+    <option>Product 4</option>
+  </select>
+</div>
+       <form>
+           <div class="form-group">
+                <label for="lastName" class="required223"><b> ZIP code</b>  </label>
+                <input type="text" id="CompanyNameOptional" name="CompanyNameOptional" >
+            </div>
+       </form>
+       <form>
+           <div class="form-group">
+                <label for="lastName" class="required223"><b> Phone</b>  </label>
+                <input type="text" id="CompanyNameOptional" name="CompanyNameOptional" >
+            </div>
+       </form>
+       <form>
+           <div class="form-group">
+                <label for="lastName" class="required223"><b> Email address</b>  </label>
+                <input type="text" id="CompanyNameOptional" name="CompanyNameOptional" >
+            </div>
+       </form>
+       <form>
+           <div class="form-group">
+                <input type="text" id="CompanyNameOptional" name="CompanyNameOptional" placeholder="Additional information">
+            </div>
+       </form>
+<div class="stranicha6inform">
+    <div class="dvazg">
+        <div class=""><b>Product</b>  </div>
+        <div class=""><b>Subtotal</b>   </div>
+    </div>
+    <div class="dstranicha611">
+        <div class="d2stranicka6">
+            <div class="d2stranicka6Asgaard">Asgaard sofa</div>
+            <div class="">X</div>
+            <div class="">1</div>
+        </div>
+        <div class="chenadstranicha611">Rs. 250,000.00</div>
+    </div>
+    <div class="dstranicha622">
+        <div class="Subtotalstranicka6">Subtotal</div>
+        <div class="">Rs. 250,000.00</div>
+    </div>
+    <div class="dstranicha622">
+        <div class="Subtotalstranicka6">Total</div>
+        <div class="chena1stran6">Rs. 250,000.00</div>
+    </div>
+    <div class="line56"></div>
+    <div class="dicplayoval">
+        <div class="o6"></div>
+        <div class="DirectBankTransfer">Direct Bank Transfer</div>
+    </div>
+    <div class="textstranicka6">Make your payment directly into our bank account. Please use <br> your Order ID as the payment reference. Your order will not be
+        <br>  shipped until the funds have cleared in our account.</div>
+
+        <div class="dicplayoval">
+        <div class="o8"></div>
+        <div class="CashOnDelivery">Direct Bank Transfer</div>
+    </div>
+            <div class="dicplayoval">
+        <div class="o8"></div>
+        <div class="CashOnDelivery">Cash On Delivery</div>
+    </div>
+    <div class="Your">
+        Your personal data will be used to support your experience <br> throughout this website, to manage access to your account, and
+        <br> for other purposes described in our <b>privacy policy.</b>
+    </div>
+    <button class="Place"> Place order</button>
+</div>
+<div class="dostichenia-container2">
+    @@include('../components/dostichenia.html', {
+    "img": "./assets/images/kybok.webp",
+    "title": "High Quality",
+    "text": "crafted from top materials"
+    })
+    @@include('../components/dostichenia.html', {
+    "img": "./assets/images/klass.webp",
+    "title": "Warranty Protection",
+    "text": "Over 2 years"
+    })
+    @@include('../components/dostichenia.html', {
+    "img": "./assets/images/podarok.webp",
+    "title": "Free Shipping",
+    "text": "Order over 150 $"
+    })
+    @@include('../components/dostichenia.html', {
+    "img": "./assets/images/cvaz.webp",
+    "title": "24 / 7 Support",
+    "text": "Dedicated support"
+    })
+</div>
+
+@@include('../components/footer.html')
+</body>
+</html>

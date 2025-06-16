@@ -21,7 +21,7 @@
   height: 390px;
   background: #F9F1E7;
   margin-left: 947px;
-  margin-top: -56px;
+  margin-top: -177px;
 }
 .zgcarttotals{
   font-family: Poppins;
@@ -73,13 +73,39 @@
 .imgkart1korzina3 {
   width: 105px;
   height: 105px;
-  margin-left: -1148px;
-  margin-top: -70px;
-  position: absolute;
+  margin-left: 100px;
+  margin-top: 55px;
 }
 .displaystran500{
   display: flex;
   gap: 69px;
-  margin-left: -699px;
-  margin-top: -149px;
+  margin-left: 242px;
+  margin-top: -66px;
+}
+.Asgaardsofactran5{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #9F9F9F;
+}
+.edinicka {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #9F9F9F;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center;     /* Центрирование по вертикали */
+  text-align: center;      /* Дополнительно для текста */
+  margin-top: -6px;
+}
+.dvestipat{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+
 }

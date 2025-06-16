@@ -13,33 +13,69 @@
 @@include('../components/nachalo2.html', {
 "title": "Cart",
 "text": "<a href='./stranicka3.html'>Cart</a>",
-"img": "./assets/images/logo.webp"  // Путь к изображению
+"img": "./assets/images/logo.webp"
 })
-<div class="bloc2stran5">
-    <div class=""><b>Product</b></div>
-    <div class=""><b>Price</b>    </div>
-    <div class=""><b>Quantity</b>   </div>
-    <div class=""><b>Subtotal</b>   </div>
+
+<div class="cart-container">
+    <!-- Шапка таблицы -->
+    <div class="bloc2stran5">
+        <div class=""><b>Product</b></div>
+        <div class=""><b>Price</b></div>
+        <div class=""><b>Quantity</b></div>
+        <div class=""><b>Subtotal</b></div>
+    </div>
+
+    <!-- Основное содержимое корзины -->
+    <div class="cart-item-container"> <!-- Один контейнер для товара -->
+        <img class="imgkart1korzina3" src="./assets/images/kartkorzina1.webp">
+        <div class="displaystran500">
+            <div class="Asgaardsofactran5">Asgaard sofa</div>
+            <div class="Asgaardsofactran5">Rs. 250,000.00</div>
+            <div class="edinicka">1</div>
+            <div class="dvestipat">Rs. 250,000.00</div>
+            <img src="./assets/images/korichenevaakarzina.webp">
+        </div>
+    </div>
+
+    <!-- Блок итогов -->
+    <div class="CartTotals">
+        <div class="zgcarttotals">Cart Totals</div>
+        <div class="dicpcart1">
+            <div class="Subtotalstr5"><b>Subtotal</b></div>
+            <div class="chena250">Rs. 250,000.00</div>
+        </div>
+        <div class="dicpcart12">
+            <div class="Subtotalstr5"><b>Total</b></div>
+            <div class="Rs1234">Rs. 250,000.00</div>
+        </div>
+        <button class="ctran5ppp">Check Out</button>
+    </div>
 </div>
-<div class="CartTotals">
-    <div class="zgcarttotals">Cart Totals</div>
-    <div class="dicpcart1">
-        <div class="Subtotalstr5"><b>Subtotal</b>  </div>
-        <div class="chena250">Rs. 250,000.00</div>
-    </div>
-    <div class="dicpcart12">
-        <div class="Subtotalstr5"><b>Total</b>   </div>
-        <div class="Rs1234">Rs. 250,000.00</div>
-    </div>
-    <button class="ctran5ppp">Check Out</button>
-    <img class="imgkart1korzina3"   src="./assets/images/kartkorzina1.webp">
-    <div class="displaystran500">
-        <div class="">Asgaard sofa</div>
-        <div class="">Rs. 250,000.00</div>
-        <div class="">1</div>
-        <div class="">Rs. 250,000.00</div>
-    </div>
+
+<!-- Блок преимуществ -->
+<div class="dostichenia-container">
+    @@include('../components/dostichenia.html', {
+    "img": "./assets/images/kybok.webp",
+    "title": "High Quality",
+    "text": "crafted from top materials"
+    })
+    @@include('../components/dostichenia.html', {
+    "img": "./assets/images/klass.webp",
+    "title": "Warranty Protection",
+    "text": "Over 2 years"
+    })
+    @@include('../components/dostichenia.html', {
+    "img": "./assets/images/podarok.webp",
+    "title": "Free Shipping",
+    "text": "Order over 150 $"
+    })
+    @@include('../components/dostichenia.html', {
+    "img": "./assets/images/cvaz.webp",
+    "title": "24 / 7 Support",
+    "text": "Dedicated support"
+    })
+</div>
+
+@@include('../components/footer.html')
 </body>
 </html>
-
-

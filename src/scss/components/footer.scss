@@ -1,5 +1,21 @@
+/* Новые стили для прижатия футера */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding-bottom: 50px; /* Отступ от футера */
+}
+
+.content-wrapper {
+  flex: 1 0 auto;
+}
 .glavfoot{
   display: flex;
+  width: 100%;
 
 }
 .Links{
@@ -7,7 +23,27 @@
 }
 footer{
   margin-left: 100px;
-  margin-top: auto;
+}
+.Links {
+  margin-left: auto; /* Заменяем фиксированный отступ */
+}
+footer hr {
+    width: 1240px;
+    border: 0;
+    height: 2px;
+    background-color: #d9d9d9;
+    margin: 26px 0;
+    position: static;
+    margin-left: -2px;
+}
+.footer-hr-top{
+    width: 107%;
+    border: 0;
+    height: 2px;
+    background-color: #d9d9d9;
+    margin: 34px 0 26px -105px;
+    position: static;
+    margin-left: -105px;
 }
 .email-input{
   outline: 0;
@@ -35,6 +71,7 @@ footer{
   line-height: 100%;
   letter-spacing: 0%;
   color: #9F9F9F;
+  margin-left: 520px;
 }
 .Funirofoot{
   font-family: Poppins;
@@ -97,11 +134,11 @@ form{
   margin-top: 22px;
 }
 .furino{
-  margin-top: 23px;
-  font-family: Poppins;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 100%;
-  letter-spacing: 0%;
+    margin-top: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 191%;
+    letter-spacing: 0;
 
 }
