@@ -1,0 +1,121 @@
+.zgmainstranica4{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 126%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  margin-left: 96px;
+  margin-top: 55px;
+}
+.ccilkamainstranicka4{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #727272;
+  margin-left: 96px;
+
+}
+/* Основной контейнер карточек - теперь в строку */
+.obchiakartstran4 {
+  display: flex;
+  flex-direction: row; /* Располагаем элементы в строку */
+  gap: 71px; /* Расстояние между карточками */
+  flex-wrap: wrap; /* Перенос на новую строку при необходимости */
+  margin-left: 360px;
+  margin-top: -118px;
+}
+
+/* Обертка для каждой карточки */
+.kartochka {
+  display: flex;
+  flex-direction: column; /* Элементы внутри карточки в колонку */
+  margin-bottom: 0;
+
+}
+
+/* Остальные стили остаются без изменений */
+.polnakarbloc231, .polnakarblocg2312 {
+  width: 280px;
+  height: 177px;
+  background: #F9F1E7;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0; /* Убираем прежние отступы */
+  margin-top: 0;
+}
+.polnakarbloc231img{
+  width: 239px;
+  height: 142px;
+
+
+}
+.AsgaardSofainformstranicka4{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 126%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  margin-top: 12px;
+}
+.chenainformstranicka4{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.displayinformkartstranicka4{
+  display: flex;
+  gap: 9px;
+}
+.vertical-line6{
+  //position: absolute;
+  width: 1px;  /* Толщина линии */
+  height: 30px; /* Длина линии */
+  background-color: #9F9F9F;
+  margin-left: 108px;
+  margin-top: -30px;
+
+}
+.CustomerReview3{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #9F9F9F;
+  margin-left: 123px;
+  margin-top: -18px;
+
+}
+.AddAProduct{
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 126%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  margin-left: 1073px;
+  margin-top: -210px;
+
+}
+.comparison__table__block__select{
+  width: 242px;
+  height: 39px;
+  top: 539px;
+  left: 1073px;
+  border-radius: 6px;
+  background: #B88E2F;
+  color: white;
+  border: none;
+  margin-left: 1073px;
+  margin-top: 16px;
+}
+
+/* Остальные ваши стили остаются без изменений */

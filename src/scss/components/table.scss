@@ -1,0 +1,43 @@
+.special-table{
+  margin-top: 210px;
+  margin-left: 54px;
+  border: 1px solid #E8E8E8
+}
+.zgtabk4{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 126%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  border-bottom: 1px solid #ddd;
+
+
+}
+
+
+
+.special-table th,
+.special-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+/* Вертикальные границы между колонками */
+.special-table td + td,
+.special-table th + th {
+  border-left: 1px solid #ddd;
+}
+
+/* Стиль для заголовков разделов */
+.zgtabk4 td {
+  font-weight: bold;
+  padding-top: 20px;
+}
+.special-table {
+  margin-top: 210px;
+  margin-left: 54px;
+  border: 1px solid #E8E8E8;
+}
+
+
