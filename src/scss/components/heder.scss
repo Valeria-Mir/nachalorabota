@@ -1,3 +1,6 @@
+header{
+  height: 100px;
+}
 .logochelo{display:flex;
   margin-left:54px;
   width: 50px;
@@ -62,7 +65,7 @@
     top: 0;
     right: -600px;
     width: 417px;
-    height: 746px; /* Фиксированная высота (не на всю страницу) */
+    height: 746px;
     background: white;
     z-index: 1000;
     transition: right 0.3s ease;
@@ -146,6 +149,7 @@
 .cart-icon{
   margin-left: 1314px;
   margin-top: -29px;
+  position: absolute;
 }
 .Subtotalkorzina{
   font-family: Poppins;
