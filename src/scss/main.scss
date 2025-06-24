@@ -24,6 +24,9 @@
 @use "components/stranicka5";
 @use "components/stranicka6";
 
+body{
+  width: 1440px;
+}
 
 .ocnova {
   position: relative; /* Родительский контейнер с относительным позиционированием */
